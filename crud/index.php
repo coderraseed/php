@@ -11,11 +11,13 @@
         body {
             margin-top: 30px;
         }
-        form label, form input[type="text"] {
-            width: 50%;
+        form input[type="text"], form input[type="number"] {
+            width: 70%;
             display: inherit;
         }
         form label {
+            width: 30%;
+            display: inherit;
             float: left;
         }
     </style>
@@ -29,14 +31,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="column column-60 column-offset-20">
-            <?php if(file_exists('inc/templates/form.php')){ include_once('inc/templates/form.php');} ?>
-
+            <div class="column column-67 column-offset-20">  
+                <?php if(file_exists('inc/templates/nav.php')){ include_once('inc/templates/nav.php');} ?>
             </div>
         </div>
         <div class="row">
-            <div class="column column-6 column-offset-20">  
-                <?php if(file_exists('inc/templates/nav.php')){ include_once('inc/templates/nav.php');} ?>
+            <div class="column column-60 column-offset-20">
+            <?php if(file_exists('inc/templates/form.php')){ include_once('inc/templates/form.php');} ?>
+
             </div>
         </div>
     </div>
