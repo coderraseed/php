@@ -1,5 +1,5 @@
-<a class="button" href="">All Employee |</a>
-<a class="button" href="">create |</a>
-<a class="button" href="">update |</a>
-<a class="button" href="">Seeds |</a>
-<a class="button" href="">Delete All |</a>
+<a class="button" href="/crud/index.php?task=report">All Employee |</a>
+<a class="button" href="/crud/index.php?task=create">create |</a>
+<a class="button" href="/crud/index.php?task=update">update |</a>
+<a class="button" href="/crud/index.php?task=seed">Seeds |</a>
+<a class="button" href="/crud/index.php?task=delete">Delete All |</a>
