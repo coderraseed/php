@@ -18,9 +18,6 @@ function generateReport(){
                     <td><?php printf('%s ', $student['roll']); ?></td>
                     <td><?php printf('<a href="/crud2/index.php?task=edit&id=%s">Edit</a> | <a href="/crud2/index.php?task=delete&id=%s">Delete</a>', $student['id'], $student['id']);?></td>
                 </tr>
-            
+            <?php } ?>
         </tbody>
     </table>
-<?php  }
-
-?>
