@@ -2,6 +2,7 @@
 function generateReport(){
     $serializedData = file_get_contents(DB_NAME);
     $students = unserialize($serializedData);
+}
 ?>
     <table class="table">
         <thead>
