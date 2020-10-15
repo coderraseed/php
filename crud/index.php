@@ -11,8 +11,11 @@
         $svc = filter_input( INPUT_POST, 'svc', FILTER_SANITIZE_STRING );
         $name = filter_input( INPUT_POST, 'name', FILTER_SANITIZE_STRING );
         $age  = filter_input( INPUT_POST, 'age', FILTER_SANITIZE_STRING );
+        $trade  = filter_input( INPUT_POST, 'trade', FILTER_SANITIZE_STRING );
+        $bname  = filter_input( INPUT_POST, 'bname', FILTER_SANITIZE_STRING );
+        $slen  = filter_input( INPUT_POST, 'slen', FILTER_SANITIZE_STRING );
         if ( $svc != '' && $name != '' && $age != '' ) {
-            addStudent( $svc, $name, $age );
+            addEmployee( $svc, $name, $age, $trade, $bname, $slen );
         }
     } 
 ?>
@@ -49,7 +52,7 @@
         <?php if ( 'report' == $task ): ?>
             <div class="row">
                 <div class="column column-60 column-offset-20">
-                    <?php generateReport0(); ?>
+                    <?php generateReport(); ?>
                 </div>
             </div>
         <?php endif; ?>

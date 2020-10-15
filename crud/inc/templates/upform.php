@@ -2,41 +2,41 @@
     <div class="row">
         <div class="column column-33">
             <label for="num">Svc Number</label>
-            <input value="" type="text" id="num" name="svc" placeholder="Svc Number" >
+            <input value="<?php ?>" type="text" id="num" name="svc" placeholder="Svc Number" >
         </div>
         <div class="column column-33">
             <label for="name">Name</label>
-            <input value="" type="text" id="name" name="svc" placeholder="Type Your Full Name" >
+            <input value="<?php ?>" type="text" id="name" name="svc" placeholder="Type Your Full Name" >
         </div>
         <div class="column column-33">
             <label for="age">Age</label>
-            <input value="" type="text" id="age" name="age" placeholder="Age" >
+            <input value="<?php ?>" type="text" id="age" name="age" placeholder="Age" >
         </div>
     </div>
     <div class="row">        
         <div class="column column-33">
             <label for="trade">Occupation</label>
-            <input value="" type="text" name="trade" id="trade" placeholder="Type your occupation" >
+            <input value="<?php ?>" type="text" name="trade" id="trade" placeholder="Type your occupation" >
         </div>
         <div class="column column-33">
             <label for="bname">Branch Name</label>
-            <input value="" type="text" name="bname" id="bname" placeholder="Your Branch Name" >
+            <input value="<?php ?>" type="text" name="bname" id="bname" placeholder="Your Branch Name" >
         </div>
         <div class="column column-33">
             <label for="slen">Service Length</label>
-            <input value="" type="text" id="slen" name="slen" >
+            <input value="<?php ?>" type="text" id="slen" name="slen" >
         </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
         <div class="column column-33">
             <label for="edate">Date of Enroll</label>
-            <input value="" type="date" id="edate" name="edate" >
+            <input value="<?php ?>" type="date" id="edate" name="edate" >
         </div>
         <div class="column column-33">
             <label for="rdate">Date of Returned</label>
-            <input value="" type="date" id="rdate" name="rdate" >
+            <input value="<?php ?>" type="date" id="rdate" name="rdate" >
         </div>
-    </div>
+    </div> -->
     
     <a href="#" class="button" name='submit' >Update</a>
 
