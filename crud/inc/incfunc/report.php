@@ -31,7 +31,7 @@ function generateReport(){
             <!-- <td><?php printf('%s', $student['svc']); ?></td>
             <td><?php printf('%s', $student['svc']); ?></td> -->
             <td style="text-align: center;">
-                <?php printf('<a href="/crud/index.php?task=update" style="margin-right:10px;" ><i class="fas fa-edit"></i></a><a href="#"><i class="fas fa-trash-alt"></i></a>'); ?>
+                <?php printf('<a href="/crud/index.php?task=edit&id=%s" style="margin-right:10px;" ><i class="fas fa-edit"></i></a><a class="delete" href="/crud/index.php?task=delete&id=%s"><i class="fas fa-trash-alt"></i></a>',$student['id'], $student['id']); ?>
             </td>
         </tr>
     <?php } ?>
@@ -39,3 +39,4 @@ function generateReport(){
     </tbody>
 </table>
 <?php  }
+

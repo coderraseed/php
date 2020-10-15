@@ -38,4 +38,6 @@
         $serializedData = serialize( $data );
         file_put_contents( DB_NAME, $serializedData, LOCK_EX );
     }
+
+
 ?>
