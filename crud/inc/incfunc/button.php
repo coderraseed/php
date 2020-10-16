@@ -3,8 +3,15 @@
         $serialziedData = file_get_contents( DB_NAME );
         $students       = unserialize( $serialziedData );
         $ras=count($students);
-        $i=4;
+        $i=3;
         if($i<=$ras){ return 'display:none';}
+    } 
+    function seedDisabled(){
+        $serialziedData = file_get_contents( DB_NAME );
+        $students       = unserialize( $serialziedData );
+        $ras=count($students);
+        $i=2;
+        if($ras>0 && $i>=$ras){ return 'disabled';}
     } 
 
 

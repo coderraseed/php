@@ -26,14 +26,15 @@
             <div class="column column-60 column-offset-20">
                 <h1>This is my first CRUD project.</h1>
                 <p>I have started a new CRUD project in PHP programming language with <strong>Hasin Hayder</strong>  </p>
-                <p style="color:red;">
-                    <?php if ( 'seed' == $task ) { echo $info;} ?>
-                </p>
+
             </div>
         </div>
         <div class="row">
             <div class="column column-67 column-offset-20" style="text-align: center;">  
                 <?php if(file_exists('inc/templates/nav.php')){ include_once('inc/templates/nav.php');} ?>
+                <p style="color:red;">
+                    <?php if ( 'seed' == $task ) { echo $info;} ?>
+                </p>
             </div>
         </div>
         <?php if ( '1' == $error): ?>

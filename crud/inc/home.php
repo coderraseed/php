@@ -9,16 +9,14 @@
                 header( 'location: /crud/index.php?task=report' );  
             }
         }
-        // if('deleteall'==$task){
-        //     $id  = filter_input( INPUT_GET, 'id', FILTER_SANITIZE_STRING );
-        //     if($id<0){
-        //         deleteAllEmployee($id);
-        //         header( 'location: /crud/index.php' );  
-        //     }
-        // }
+        if('deleteall'==$task){
+                deleteAllEmployee($id);
+                header( 'location: /crud/index.php?task=report' );  
+            }
+        
         if ( 'seed' == $task ) {
             seed();
-            $info = "Seeding is complete";
+            $info = "Seeding has completed";
         }
         $svc=''; 
         $name='';

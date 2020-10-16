@@ -30,6 +30,14 @@
         $students       = unserialize( $serialziedData );
         print_r($students);
     }
+    function deleteAllEmployee(){
+        $serialziedData = file_get_contents( DB_NAME );
+        $students1234       = unserialize( $serialziedData );
+        $students1234 = array();
+        $serializedData = serialize( $students1234 );
+        file_put_contents( DB_NAME, $serializedData, LOCK_EX );
+        
+    }
 
     // function deleteAllEmployee($students, $id){
     //     $serialziedData = file_get_contents( DB_NAME );
