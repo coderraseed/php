@@ -33,6 +33,19 @@
 
         printf("My %s name is %s %s \n", "full", $namef, $lname);
 
+    echo "I love my country.
+        The of my country is bangladesh.
+        Bangladesh in a riverine country. \n";
+    
+    $planet = "Sun";
+    $planet1 = "Uretus";
+
+    echo "The smallest planet is ".$planet ." and the biggest planet is ".$planet1 ."\n";
+    echo "The smallest planet is {$planet} and the biggest planet is {$planet1} \n";
+    printf ("The smallest planet is %s and the biggest planet is %s\n", $planet, $planet1);
+    printf ("The smallest planet is %s and the biggest planet is %s\n", strtoupper($planet), strtolower($planet1));
+
+
     
 
 ?>
