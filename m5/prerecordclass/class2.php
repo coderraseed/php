@@ -15,7 +15,7 @@ class Human {
     public function sayName() {
         echo "My name is {$this->name}\n";
     }
-    get_file_data( $file:string, $default_headers:array, $context:string )
+    
     
 }
 $h1 = new Human( "Rashed" );
