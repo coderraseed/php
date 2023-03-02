@@ -1,0 +1,10 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+.div {
+    color: #000;
+    background: #bcd290;
+    overflow: hidden;
+}

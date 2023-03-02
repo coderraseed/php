@@ -13,9 +13,12 @@ $string = 'array_change_key_case — Changes the case of all keys in an array, a
 
 $makeArray = preg_split( '/( — |, )/', $string );
 //print_r( $makeArray[2] );
-
+$arrayCount = count( $makeArray );
+echo $arrayCount;
 foreach ( $makeArray as $key => $value ) {
-    echo $key . "=" . $value . "\n";
+    //echo $key . "=" . $value . "\n";
+    if ($key%2==0) {
+        # code...
+    }
 
-    
 }
