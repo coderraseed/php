@@ -10,7 +10,8 @@ class Person{
     //What is method, Method means the function inside the class
     public function AddNumber($a,$b){
         $result = $a+$b;
-        return $result;
+        return $result; 
+        
     }
 
     //how many security classification of property/method
@@ -21,6 +22,6 @@ class Person{
     protected $d = 6;
     static $f = 9;
 }
-//How to write a object, is given bellow
-$human = new Person;
+//How to write an object, is given bellow
+$human = new Person; // 
 echo $human->AddNumber(1,2);

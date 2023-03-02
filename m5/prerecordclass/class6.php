@@ -1,1 +1,7 @@
-This is file 6
+<?php 
+class Animal{
+    public function eat(){
+        echo "I am eating";
+    }
+     
+}
