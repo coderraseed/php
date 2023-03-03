@@ -1,1 +1,27 @@
-This is file 7
+<?php 
+
+
+$i = 0;
+while ( $i < 5 ) {
+    echo $i;
+    $i++;
+    echo PHP_EOL;
+}
+
+
+echo "================\n";
+$j = 0;
+while ( $j++ < 5) {
+    echo $j;
+    echo PHP_EOL;
+
+}
+
+
+echo "================\n";
+$j = 0;
+while ( ++$j < 5) {
+    echo $j;
+    echo PHP_EOL;
+
+}
