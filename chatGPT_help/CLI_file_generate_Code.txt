@@ -1,0 +1,12 @@
+
+
+This is most important code. Don't delete it.
+
+for i in {1..10}; do
+  touch class$i.php
+  echo "<?php" >> class$i.php
+done
+
+
+git add . && git commit -m "commit message" && git push origin master
+
