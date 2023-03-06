@@ -11,11 +11,12 @@ echo $character . "\n"; // Output: A
 $character  = 'C';
 $ascii_code = ord( $character );
 echo $ascii_code . "\n"; // Output: 67
-//===================================
+//==================================
 $ascii_code         = 65;
 $hex_representation = bin2hex( chr( $ascii_code ) );
 echo $hex_representation . "\n"; // Output: 41
 
 $hex_representation = "41";
 $character          = hex2bin( $hex_representation );
-echo $character . "\n"; // Output: A
+echo $character . "\n"; // Output: A 
+ 
