@@ -21,7 +21,7 @@ EOD;
 
 echo $nowDoc;
 
-echo "\n============this is now doc============\n";
+echo "\n===========this is now doc============\n";
 
 $hearDoc = <<<EOD
 My name
@@ -31,4 +31,5 @@ PHP,
 laravel &
 wordpress
 EOD;
+
 
