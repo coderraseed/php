@@ -1,5 +1,5 @@
 <?php
-class Shape {
+ class Shape {
     protected $name;
     protected $area;
     public function __construct( $name ) {
@@ -9,7 +9,7 @@ class Shape {
     public function getArea() {
         echo "This {$this->name}'s area is {$this->area}\n";
     }
-    //public function calculateArea() {}
+    public function calculateArea() {}
 }
 
 class Triangle extends Shape {

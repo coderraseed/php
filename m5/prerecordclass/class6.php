@@ -26,7 +26,7 @@ echo $h1->sayHi();
 class Animal {
 
     //private  $name;// private property can't access from child class fot this reason we can use protected property in our main class
-    protected  $name;// 
+    protected $name; //
 
     public function __construct( $name ) {
         $this->name = $name;
@@ -42,8 +42,8 @@ class Animal {
     }
     public function Greet() {}
 
-    protected function addTitle($title){
-        $this->name = $title. "".$this->name;
+    protected function addTitle( $title ) {
+        $this->name = $title . "" . $this->name;
     }
 
 }
@@ -51,7 +51,7 @@ class Animal {
 //!Class Inheritance and Method override
 class Human extends Animal {
     public function Greet() {
-        $this->addTitle("Mr.");
+        $this->addTitle( "Mr." );
         echo "{$this->name} says Hi\n";
     }
 }
@@ -62,8 +62,8 @@ class Cat extends Animal {
     }
 }
 
-$h1 = new Human("Rasel");
+$h1 = new Human( "Rasel" );
 echo $h1->greet();
 $h1->eat();
-$cat = new Cat("Tom");
+$cat = new Cat( "Tom" );
 echo $cat->greet();
