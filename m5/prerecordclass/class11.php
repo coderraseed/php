@@ -1,12 +1,12 @@
 <?php 
 //! Step one
-class Shape{}
+class ShapeD{}
 class Shapes {
     private $shapes;
     public function __construct(){
         $this->shapes=array();
     }
-    public function addShape($shape){
+    public function addShape(ShapeD $shape){
        array_push($this->shapes, $shape);
     }
     public function totalShapes(){
@@ -14,15 +14,16 @@ class Shapes {
     }
 }
 
-class Rectangle extends Shape {}
-class TriAngle extends Shape{}
+class RectangleD extends ShapeD {}
+class TriAngleD extends ShapeD{}
 class Student {}
 
 
-$r =new Ractangle();
-$t =new TriAngle();
+
 
 $shapesCollection = new Shapes();
-$shapesCollection->addShape(new Ractangle());
-$shapesCollection->addShape(new TriAngle());
-$shapesCollection->addShape(new Student());
+$shapesCollection->addShape(new RectangleD());
+$shapesCollection->addShape(new TriAngleD());
+//$shapesCollection->addShape(new Student());
+
+echo $shapesCollection->totalShapes();
