@@ -1,5 +1,3 @@
---!SQL can insert records in a database:    SQL can insert new data into a database by using the INSERT statement. Developers can specify which columns to insert data into and provide the values for those columns.
-
 INSERT INTO `ACCOUNT` (`ACCOUNT_ID`, `AVAIL_BALANCE`, `CLOSE_DATE`, `LAST_ACTIVITY_DATE`, `OPEN_DATE`, `PENDING_BALANCE`, `STATUS`, `CUST_ID`, `OPEN_BRANCH_ID`, `OPEN_EMP_ID`, `PRODUCT_CD`) VALUES ('1', '1057.75', NULL, '2005-01-04', '2000-01-15', '1057.75', 'ACTIVE', '1', '2', '10', 'CHK'),
 ('2', '500', NULL, '2004-12-19', '2000-01-15', '500', 'ACTIVE', '1', '3', '10', 'SAV'),
 ('3', '3000', NULL, '2004-06-30', '2004-06-30', '3000', 'ACTIVE', '1', '2', '10', 'CD'),
@@ -104,8 +102,3 @@ INSERT INTO `PRODUCT` (`PRODUCT_CD`, `DATE_OFFERED`, `DATE_RETIRED`, `NAME`, `PR
 INSERT INTO `PRODUCT_TYPE` (`PRODUCT_TYPE_CD`, `NAME`) VALUES ('ACCOUNT', 'Customer Accounts'),
 ('INSURANCE', 'Insurance Offerings'),
 ('LOAN', 'Individual and Business Loans');
-
-
-
-
-

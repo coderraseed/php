@@ -6,6 +6,19 @@ MySQL offers a range of features such as high performance, reliability, scalabil
 
 MySQL also supports various storage engines, which are responsible for handling data storage and retrieval. The default storage engine for MySQL is InnoDB, which supports transactions and foreign keys, making it suitable for applications that require ACID compliance. Other storage engines supported by MySQL include MyISAM, Memory, and CSV.
 
+
+    MySQL is a relational database management system
+    MySQL is open-source
+    MySQL is free
+    MySQL is ideal for both small and large applications
+    MySQL is very fast, reliable, scalable, and easy to use
+    MySQL is cross-platform
+    MySQL is compliant with the ANSI SQL standard
+    MySQL was first released in 1995
+    MySQL is developed, distributed, and supported by Oracle Corporation
+    MySQL is named after co-founder Monty Widenius's daughter: My
+
+
 !What Can MySQL do
 
 MySQL is a powerful relational database management system that can perform a wide range of functions. Here are some of the things MySQL can do:
